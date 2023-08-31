@@ -1,0 +1,26 @@
+ul {
+    display: grid;
+    gap: 40px;
+    padding-left: 0;
+}
+
+li {
+    border: 1px solid lightgray;
+    background: url("sprite.svg#cat") no-repeat center / contain;
+    aspect-ratio: 268/112;
+}
+li:first-child {
+    width: 268px;
+}
+
+li:nth-child(2) {
+    width: 100px;
+}
+
+li:nth-child(3) {
+    width: 200px;
+}
+
+li:nth-child(4) {
+    width: 400px;
+}
